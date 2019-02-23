@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JS 2 Tina HTML By Id</title>
+</head>
+<body>
+	<h2>Finding HTML Element by Id</h2>
+	<p id="intro">Hello World!</p>
+	<p>This Example demonstrates the <b>getElementById</b>method.</p>
+	<p id="demo"></p>
+	<script>
+		var myElement = document.getElementById("intro");
+		document.getElementById("demo").innerHTML = "The text from the intro paragraph is "+myElement.innerHTML;
+	</script>
+</body>
+</html>
